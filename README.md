@@ -57,7 +57,7 @@ $ npx prisma migrate dev
 
 ```
  <ul>
-  <li>You will need to create a database through PostgreSQL and modify the DATABASE_URL variable inside .env</li>
+  <li>You will need to create a database through PostgreSQL and set the DATABASE_URL in the .env file to point to your existing database.</li>
   <li>You will also need to install Prism to perform database schema migration </li>
  </ul>
 
